@@ -1,4 +1,4 @@
-const prefix = '@app:';
+const prefix = '@neutron:';
 
 const storageKeys = {
   token: `${prefix}token`,
