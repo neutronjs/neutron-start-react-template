@@ -1,12 +1,12 @@
 import React from 'react';
 
 import Hello from '@/components/Hello';
-import Notification from '@/utils/notification';
+import Toast from '@/utils/toast';
 
 import { StyledContainer } from './styles';
 
 function Home() {
-  Notification.success('Hello, dev! How are you?');
+  Toast.success('Hello, dev! How are you?');
   return (
     <StyledContainer>
       <Hello />
