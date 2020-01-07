@@ -22,13 +22,13 @@ const GlobalStyle = createGlobalStyle`
     outline: none;
   }
 
-  /* Notification */
-  .notification-error,
-  .notification-info,
-  .notification-success,
-  .notification-warning {
+  /* Toast Notification */
+  .toast-notification-error,
+  .toast-notification-info,
+  .toast-notification-success,
+  .toast-notification-warning {
     display:flex;
-    .notification-body {
+    .toast-notification-body {
       padding: 30px;
       font-size: 14px;
 
@@ -39,27 +39,27 @@ const GlobalStyle = createGlobalStyle`
       }
     }
   }
-  .notification-error {
+  .toast-notification-error {
     background-color: ${colors.error};
-    .notification-body:before {
+    .toast-notification-body:before {
       content: 'Error message:';
     }
   }
-  .notification-info {
+  .toast-notification-info {
     background-color: ${colors.info};
-    .notification-body:before {
+    .toast-notification-body:before {
       content: 'Info message:';
     }
   }
-  .notification-success {
+  .toast-notification-success {
     background-color: ${colors.success};
-    .notification-body:before {
+    .toast-notification-body:before {
       content: 'Success message:';
     }
   }
-  .notification-warning {
+  .toast-notification-warning {
     background-color: ${colors.warning};
-    .notification-body:before {
+    .toast-notification-body:before {
       content: 'Warning message:';
     }
   }
